@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import styles from "./ProductItem.module.css";
+import styles from "./productItem.module";
 import { Link } from "react-router-dom";
 
 export default function ProductItem(props) {
