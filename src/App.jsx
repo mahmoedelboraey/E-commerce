@@ -15,7 +15,7 @@ import { tokenContext } from './context/tokenContext'
 import ProtectedRouter from './components/ProtectedRouter/ProtectedRouter'
 import AuthView from './components/AuthView/AuthView'
 import Home from './components/Home/components/Home';
-import ProductDetiles from './components/productDetiles/productDetiles';
+import ProductDetiles from './components/ProductDetiles/productDetiles';
 import { ToastContainer } from 'react-toastify'
 import CheckOut from './components/CheckOut/CheckOut';
 import AllOrders from './components/AllOrders/AllOrders';
