@@ -23,12 +23,11 @@ async function addTowilshlistFevorit(id){
             headers
         })
         ;if(data.status == "success"){
-            console.log(data)
+         
             setCount(data.count)
 
          }
-        
-        console.log(data)
+
          return data
     }
 
