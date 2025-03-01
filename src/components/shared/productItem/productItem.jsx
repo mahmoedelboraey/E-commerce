@@ -32,10 +32,7 @@ export default function ProductItem(props) {
           <button onClick={() => props.addProudectToCart(id)} className="btn bg-main w-full p-2 text-white  text-center rounded-md">
             Add Cart
           </button>
-         
         </div>
-     
-       
       </div>
     </>
   );
