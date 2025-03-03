@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import styles from "./Cart.module.css";
 import { cartContext } from "../../context/cartContext";
 import { toast } from "react-toastify";
-import { FadeLoader } from "react-spinners";
+// import { FadeLoader } from "react-spinners";
 import { tokenContext } from "../../context/tokenContext";
 import { Link, useNavigate } from "react-router-dom";
 

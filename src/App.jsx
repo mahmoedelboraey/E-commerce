@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import Categories from './components/Categories/Categories';
 import Brands from './components/Brands/Brands';
@@ -35,7 +35,7 @@ useEffect(() =>{
   }
 })
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {path:'' ,element:<Layout/> , children:[
     {index:true , element: <ProtectedRouter><Home/></ProtectedRouter>},
     {path:'home' , element:<ProtectedRouter><Home/></ProtectedRouter>},
